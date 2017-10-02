@@ -1,0 +1,13 @@
+{
+  "dependencies": {
+    "@adonisjs/fold": "^4.0.4",
+    "typescript": "^2.5.3"
+  },
+  "devDependencies": {
+    "@types/node": "^8.0.31"
+  },
+  "scripts" :
+  { 
+    "postinstall" : "./node_modules/typescript/lib/tsc"
+  }
+}
