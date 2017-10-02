@@ -1,6 +1,6 @@
 {
   "name": "adonis-laravel-broadcaster",
-  "version": "0.5.1",
+  "version": "0.5.3",
   "description": "Laravel Echo Server Broadcaster module fro AdonisJS Framework",
   "repository": {
     "type": "git",
@@ -27,5 +27,8 @@
   },
   "devDependencies": {
     "@types/node": "^8.0.31"
+  },
+  "scripts": {
+    "prepublish": "tsc"
   }
 }
