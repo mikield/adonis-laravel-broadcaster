@@ -27,8 +27,5 @@
   },
   "devDependencies": {
     "@types/node": "^8.0.31"
-  },
-  "scripts": {
-    "postinstall": "tsc"
   }
 }
