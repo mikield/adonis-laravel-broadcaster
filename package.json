@@ -1,4 +1,26 @@
 {
+  "name": "adonis-laravel-broadcaster",
+  "version": "0.5.0",
+  "description": "Laravel Echo Server Broadcaster module fro AdonisJS Framework",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mikield/adonis-laravel-broadcaster.git"
+  },
+  "keywords": [
+    "AdonisJS",
+    "Laravel",
+    "Echo",
+    "Server",
+    "Event",
+    "Broadcasting"
+  ],
+  "author": "Vladyslav Gaysyuk <mikield@icloud.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mikield/adonis-laravel-broadcaster/issues"
+  },
+  "homepage": "https://github.com/mikield/adonis-laravel-broadcaster#readme",
+
   "dependencies": {
     "@adonisjs/fold": "^4.0.4",
     "typescript": "^2.5.3"
@@ -6,8 +28,7 @@
   "devDependencies": {
     "@types/node": "^8.0.31"
   },
-  "scripts" :
-  { 
-    "postinstall" : "./node_modules/typescript/lib/tsc"
-  }
+  "scripts": {
+    "postinstall": "./node_modules/typescript/lib/tsc"
+  },
 }
