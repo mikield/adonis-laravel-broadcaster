@@ -30,5 +30,5 @@
   },
   "scripts": {
     "postinstall": "./node_modules/typescript/lib/tsc"
-  },
+  }
 }
