@@ -8,7 +8,6 @@
 */
 
 import {ServiceProvider} from '@adonisjs/fold'
-import Broadcaster from './Broadcaster/index'
 
 class BoardcastServiceProvider extends ServiceProvider {
   app: any
@@ -22,6 +21,7 @@ class BoardcastServiceProvider extends ServiceProvider {
   */
   register () {
     this.app.bind('Broadcaster', (app: any) => {
+      const Broadcaster = require('./Broadcaster')
       return new Broadcaster
     })
   }
