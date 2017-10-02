@@ -53,4 +53,4 @@ class Broadcaster {
   }
 }
 
-export default Broadcaster
+module.exports = Broadcaster
