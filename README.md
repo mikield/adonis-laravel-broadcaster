@@ -1,6 +1,18 @@
 # adonis-laravel-broadcaster
 AdonisJS package to Broadcast events to Laravel Echo Server. (not to Laravel Echo directly)
 
+
+## Registering provider
+
+Make sure you register the provider inside `start/app.js` file before making use.
+
+```js
+const providers = [
+  ...,
+  '@mikield/laravel-echo-broadcaster'
+]
+```
+
 # Usage
 ```js
 const Broadcaster = use('Broadcaster')
@@ -21,9 +33,9 @@ event(event){
 
 As you see in `Broadcaster` there is method called `.to(request)` and it takes the `socket.id` from the cookies. Its kinda private message but for guests of your site.
 
-To use it - take a look at 
-https://github.com/mikield/laravel-echo-server/blob/master/src/echo-server.ts#L224 
-and 
+To use it - take a look at
+https://github.com/mikield/laravel-echo-server/blob/master/src/echo-server.ts#L224
+and
 https://github.com/mikield/laravel-echo-server/blob/master/src/echo-server.ts#L179
 
 You can use this package too https://github.com/mikield/laravel-echo-server **but I dont garantie latest updates from the main project!**
