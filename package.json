@@ -1,6 +1,6 @@
 {
   "name": "@mikield/laravel-echo-broadcaster",
-  "version": "0.5.9",
+  "version": "0.5.10",
   "description": "Laravel Echo Server Broadcaster module fro AdonisJS Framework",
   "main": "dist/BroadcasterProvider.js",
   "repository": {
