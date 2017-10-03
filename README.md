@@ -15,7 +15,7 @@ const providers = [
 
 # Usage
 ```js
-const Broadcaster = use('Broadcaster')
+const Broadcaster = use('@mikield/Broadcaster')
 Broadcaster
       .event('MyAwesomeEvent')
       .into('MyAwesomeChannel')

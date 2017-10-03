@@ -1,6 +1,6 @@
 {
   "name": "@mikield/laravel-echo-broadcaster",
-  "version": "0.5.8",
+  "version": "0.5.9",
   "description": "Laravel Echo Server Broadcaster module fro AdonisJS Framework",
   "main": "dist/BroadcasterProvider.js",
   "repository": {
@@ -21,13 +21,13 @@
     "url": "https://github.com/mikield/adonis-laravel-broadcaster/issues"
   },
   "homepage": "https://github.com/mikield/adonis-laravel-broadcaster#readme",
-
   "dependencies": {
     "@adonisjs/fold": "^4.0.4",
-    "typescript": "^2.5.3"
+    "@adonisjs/redis": "^2.0.2"
   },
   "devDependencies": {
-    "@types/node": "^8.0.31"
+    "@types/node": "^8.0.31",
+    "typescript": "^2.5.3"
   },
   "scripts": {
     "prepublish": "tsc"

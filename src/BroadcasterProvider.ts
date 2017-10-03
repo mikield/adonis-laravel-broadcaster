@@ -20,7 +20,7 @@ class BoardcastServiceProvider extends ServiceProvider {
   * @return {void}
   */
   register () {
-    this.app.bind('Broadcaster', (app: any) => {
+    this.app.bind('@mikield/Broadcaster', (app: any) => {
       const Broadcaster = require('./Broadcaster')
       return new Broadcaster
     })

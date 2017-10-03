@@ -22,6 +22,16 @@ class Broadcaster {
     return this;
   }
 
+  intoPrivate(channel: string): this {
+    this.channel = `private-${channel}`
+    return this
+  }
+
+  intoPresence(channel: string): this {
+    this.channel = `presence-${channel}`
+    return this
+  }
+
   with(data: object): this{
     this.data = data
     return this
